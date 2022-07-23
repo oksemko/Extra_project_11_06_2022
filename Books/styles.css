@@ -1,0 +1,68 @@
+body {
+    padding: 5px;
+    margin: 5px;
+}
+
+#root {
+    display: flex;
+}
+
+.left-side {
+    background-color: teal;
+    width: 40%;
+    padding: 20px;
+}
+.right-side {
+    background-color: aqua;
+    width: 60%;
+    padding: 20px;
+}
+.books-list {
+    list-style: none;
+    padding-left: 0;
+}
+.button {
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background-color: tomato;
+}
+.edit-btn {
+    margin-left: auto;
+    height: 50%;
+    border-radius: 5px;
+    border-color: rgba(0,0,0,0.1);
+    color: #fff;
+    background-color: tomato;
+}
+.delete-btn {
+    height: 50%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #fff;
+    background-color: tomato;
+}
+.book-item {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    color: #fff;
+}
+.title {
+    color: #fff;
+}
+.book-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.add-form {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    margin-top: 10px;
+}
+.save-btn {
+    width: 50px;
+    margin-top: 10px;
+}
